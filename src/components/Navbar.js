@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import {logo} from '../logo.svg'
+// import {logo} from '../logo.svg'
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
@@ -16,7 +16,7 @@ export default class Navbar extends Component {
       <ul className="navbar-nav align-items-center">
         <li className="nav-item ml-5">
           <Link to="/" className="nav-link">
-            WELCOME TO CODING HUB
+            WELCOME TO USM BOOK HUB
           </Link>
         </li>
       </ul>
