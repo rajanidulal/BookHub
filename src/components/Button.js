@@ -4,7 +4,7 @@ export const ButtonContainer = styled.button `
 text-transform:capitalize;
 font-size:1.4rem;
 background: transparent;
-background-color: #A89C9C;
+background-color: #00909e;
 border: 0.05rem solid var(--lightBlue);
 border-color: ${props =>
    props.shoppingCart ? "var(--mainYellow)":"var(--lightBlue)"};

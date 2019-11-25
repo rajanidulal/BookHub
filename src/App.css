@@ -1,13 +1,14 @@
 :root{
-  --mainBlue:#B98EA7;
-  --lightBlue:#373F51;
-  --mainWhite:#F0D3F7;
-  --mainDark:#381632;
-  --mainYellow: #79209D;
+  --mainBlue:#77a9f0;
+  --lightBlue:#a6e3e9;
+  --mainWhite:#e3fdfd;
+  --mainDark:#041520f6;
+  --mainYellow: #041520f6;
 }
 body{
   font-family: "Oswald", sans-serif !important;
-  background: var(--mainWhite) !important;
+
+background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   color: var(--mainDark) !important;
 }
 
